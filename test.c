@@ -143,6 +143,8 @@ sizeof(TestStruct);
 
 /** Tooling questions */
 // What is Regex?
+// What does ^\w*\d+$ do?
+// Which of these will match the regex? Test123Test, Test123, 123
 
 /** Embedded questions*/
 // Stack VS Heap on embedded systems
