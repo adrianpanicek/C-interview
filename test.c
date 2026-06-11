@@ -75,24 +75,6 @@ int main() {
     return 0;
 }
 
-
-/* TEST 6 ----------------------------------------------------------------*/
-// How to improve this to handle the operation as safe as possible.
-// You can google functions documentation
-#include <stdio.h>
-
-void main() {
-    FILE *fp = fopen("data.txt", "r");
-    char buffer[100];
-    
-    while (fgets(buffer, sizeof(buffer), fp)) {
-        printf("%s", buffer);
-    }
-    
-    // What's missing at this line? 
-    // And on this line? 
-}
-
 /* TEST 7 ----------------------------------------------------------------*/
 // Find and identify the race condition
 // Fix the code snippet to make it compile and run correctly
