@@ -1,4 +1,4 @@
-/* TEST 1 ----------------------------------------------------------------*/
+/** Pointer manipulation */
 #include <stdio.h>
 
 int main() {
@@ -11,7 +11,7 @@ int main() {
     return 0;
 }
 
-/* TEST 2 ----------------------------------------------------------------*/
+/** Buffer overflow */
 #include <stdio.h>
 #include <string.h>
 
@@ -23,7 +23,7 @@ int main() {
     return 0;
 }
 
-/* TEST 3 ----------------------------------------------------------------*/
+/** Memory leak */
 // What is missing in the snippet
 // How to fix the memory leak in this code?
 #include <stdio.h>
@@ -40,7 +40,7 @@ void memory_leak_function() {
 
 }
 
-/* TEST 4 ----------------------------------------------------------------*/
+/** Pointer arithmetic */
 #include <stdio.h>
 
 int main() {
@@ -51,7 +51,7 @@ int main() {
     printf("%d\n", *++p);       // Output?
 }
 
-/* TEST 5 ----------------------------------------------------------------*/
+/** Implementation fixing */
 // How the declaration, definition and usage of the move_point should looks like?
 // Fix the code snippet to make it compile and run correctly
 // Add "const" and "static" keywords to the function declaration and definition as needed
@@ -75,7 +75,7 @@ int main() {
     return 0;
 }
 
-/* TEST 7 ----------------------------------------------------------------*/
+/** Multi-threading */
 // Find and identify the race condition
 // Fix the code snippet to make it compile and run correctly
 // You can google functions documentation or use AI to find the solution
@@ -102,7 +102,7 @@ int main() {
     printf("Counter = %d\n", counter);
 }
 
-/* TEST 8 ----------------------------------------------------------------*/                                                                                    return (num >> n) & 1;
+/** Bit manipulation*/ //return (num >> n) & 1;
 #include <stdio.h>
 
 // Return 1 if nth bit is set, 0 otherwise
@@ -124,7 +124,7 @@ int main() {
 }
 
 
-/* TEST 9 ----------------------------------------------------------------*/
+/** Padding and structs */
 typedef struct TestStruct_s
 {
     char a[8];
@@ -134,19 +134,17 @@ typedef struct TestStruct_s
 sizeof(TestStruct);
 
 
-/* TEST 10 GIT ----------------------------------------------------------------*/
+/** GIT questions */
 // squash commits
 // push vs force push
 // merge VS rebase
 // git fetch
 // merge conflicts
 
-/* TEST 11 ----------------------------------------------------------------*/
+/** Tooling questions */
 // What is Regex?
 
-/* TEST 12 ----------------------------------------------------------------*/
+/** Embedded questions*/
 // Stack VS Heap on embedded systems
 // Memory layout, where the variables are allocated
-
-/* TEST 13 ----------------------------------------------------------------*/
 // What is interrupt? From which part of the memory it is called?
