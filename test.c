@@ -126,11 +126,11 @@ int main() {
 // Return 1 if nth bit is set, 0 otherwise
 // Function must return 1 if the N-th bit of num is set, and 0 if it is not. 
 int check_bit(int num, int n) {
-    // Fill in
+    // Implement this function
 }
 
 int main() {
-    if((check_bit(10, 1))
+    if((check_bit(10, 1) == 1)
         &&(check_bit(9, 3))
         &&(!check_bit(10, 2))
         &&(!check_bit(127, 7)))
