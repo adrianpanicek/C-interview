@@ -124,6 +124,17 @@ typedef struct TestStruct_s
 } TestStruct;
 sizeof(TestStruct);
 
+/** Floating points */
+#include <stdio.h>
+
+int main() {
+    double value = (0.7 + 0.1) * 10;
+
+    printf("%d", (int) value);
+
+    return 0;
+}
+
 /** GIT questions */
 // squash commits
 // push vs force push
