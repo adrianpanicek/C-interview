@@ -6,7 +6,7 @@ int main() {
     int *p = &x;
 
     printf("Value of x: %d\n", *p);
-    printf("Address of x: %p\n", /* ??? */);  // Fill in missing part
+    printf("Address of x: %p\n", /* ??? */);
 
     return 0;
 }
@@ -17,15 +17,13 @@ int main() {
 
 int main() {
     char str[6] = "Hello";
-    strcat(str, "World"); // What's wrong here?
+    strcat(str, "World");
 
     printf("%s\n", str);
     return 0;
 }
 
 /** Memory leak */
-// What is missing in the snippet
-// How to fix the memory leak in this code?
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -52,9 +50,7 @@ int main() {
 }
 
 /** Implementation fixing */
-// How the declaration, definition and usage of the move_point should looks like?
-// Fix the code snippet to make it compile and run correctly
-// Add "const" and "static" keywords to the function declaration and definition as needed
+// TODO: Consider adding "const" and "static" keywords as needed
 #include <stdio.h>
 
 /* ??? */ move_point(/* ??? */)
@@ -76,10 +72,6 @@ int main() {
 }
 
 /** Multi-threading */
-// Find and identify the race condition
-// Fix the code snippet to make it compile and run correctly
-// You can google functions documentation or use AI to find the solution
-
 #include <stdio.h>
 #include <pthread.h>
 
@@ -123,7 +115,6 @@ int main() {
     }
 }
 
-
 /** Padding and structs */
 typedef struct TestStruct_s
 {
@@ -132,7 +123,6 @@ typedef struct TestStruct_s
     unsigned int c;
 } TestStruct;
 sizeof(TestStruct);
-
 
 /** GIT questions */
 // squash commits
